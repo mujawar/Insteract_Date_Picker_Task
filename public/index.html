@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Angular Material style sheet -->
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/angular_material/1.0.4/angular-material.min.css">
+    <link rel="stylesheet" href="./controllers/lib/md-date-range-picker/src/md-date-range-picker.css">
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
+
+    <!-- Angular Material Library -->
+    <script src="//ajax.googleapis.com/ajax/libs/angular_material/1.0.4/angular-material.min.js"></script>
+
+    <script  src="./controllers/lib/md-date-range-picker/src/md-date-range-picker.js"></script>
+
+    <!-- Your application bootstrap  -->
+    <script src="controllers/controller.js"></script>
+</head>
+
+<body ng-app="demo.app" ng-cloak>
+<div ng-controller="ctrl">
+    <md-button style="margin-left: 66%;" class="md-raised md-primary" ng-click="clear($event)">Clear Range</md-button>
+
+    <div layout layout-margin style="padding-left: 22%;">
+        <div>
+            <md-date-range-picker
+                    md-on-select="onSelect($event, true)"
+                    date-start="selectedRange.dateStart"
+                    date-end="selectedRange.dateEnd"
+                    selected-template-name="selectedRange.selectedTemplateName"
+                    selected-template="selectedRange.selectedTemplate"
+                    show-template="true"
+                    first-day-of-week="0"
+                    localization-map="mdLocalizationMap"
+                    custom-templates="mdCustomTemplates"
+                    is-disabled-date="false"
+
+            ></md-date-range-picker>
+        </div>
+    </div>
+
+
+</div>
+<!-- Angular Material requires Angular.js Libraries -->
+
+
+
+
+</body>
+
+</html>

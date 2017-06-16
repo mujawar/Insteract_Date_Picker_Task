@@ -1,0 +1,99 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "md-date-range-picker",
+        "scope": null,
+        "escapedName": "md-date-range-picker",
+        "name": "md-date-range-picker",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/arif/Documents/mywork/angular_date"
+    ]
+  ],
+  "_from": "md-date-range-picker@latest",
+  "_id": "md-date-range-picker@0.5.3",
+  "_inCache": true,
+  "_location": "/md-date-range-picker",
+  "_nodeVersion": "6.10.2",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/md-date-range-picker-0.5.3.tgz_1494028706519_0.6383565636351705"
+  },
+  "_npmUser": {
+    "name": "ipiz",
+    "email": "roel.mail73@gmail.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "md-date-range-picker",
+    "scope": null,
+    "escapedName": "md-date-range-picker",
+    "name": "md-date-range-picker",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/md-date-range-picker/-/md-date-range-picker-0.5.3.tgz",
+  "_shasum": "5bece26ddb90a01e4d1be5fb35cc2080bd1f00e6",
+  "_shrinkwrap": null,
+  "_spec": "md-date-range-picker",
+  "_where": "/Users/arif/Documents/mywork/angular_date",
+  "author": {
+    "name": "Roel Barreto",
+    "email": "greatcodeideas@gmail.com"
+  },
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "angular-aria": "^1.5.8",
+    "angular-material": "^1.1.0",
+    "angular-messages": "^1.5.8"
+  },
+  "description": "Angular Material Date Range Picker",
+  "devDependencies": {
+    "clean-css": "3.4.19",
+    "express": "4.14.0",
+    "fs": "0.0.1-security",
+    "html-minifier": "3.0.3",
+    "rimraf": "2.5.4",
+    "uglify-js": "1.3.5"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "5bece26ddb90a01e4d1be5fb35cc2080bd1f00e6",
+    "tarball": "https://registry.npmjs.org/md-date-range-picker/-/md-date-range-picker-0.5.3.tgz"
+  },
+  "gitHead": "d48bf1e973b09df4013becebc42709fa9516d1c5",
+  "keywords": [
+    "angular",
+    "material",
+    "date",
+    "range",
+    "picker"
+  ],
+  "license": "ISC",
+  "main": "./dist/md-date-range-picker.js",
+  "maintainers": [
+    {
+      "name": "ipiz",
+      "email": "roel.mail73@gmail.com"
+    }
+  ],
+  "name": "md-date-range-picker",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "build": "node ./build.js",
+    "dist": "node ./server.dist.js",
+    "start": "node ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.5.3"
+}
